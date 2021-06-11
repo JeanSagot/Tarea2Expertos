@@ -1,0 +1,101 @@
+/* ==============================================
+
+Template: Tarea 1
+Author:	Jean Sagot
+
+- General setting
+- Landing page
+    *Navbar
+    *Header body
+    *sesgoabajo
+
+================================================ */
+
+/* ------------------
+    General setting
+--------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif !important;
+    font-size: 16px;
+}
+.container-fluid {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+/* ------------------
+    Landing page
+--------------------*/
+/* ------------------Navbar--------------------*/
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+.nav-link:hover{
+    color: rgb(245, 237, 126) !important;
+}
+
+h3.my-heading {
+    font-weight: bold;
+}
+
+li.nav-item {
+    margin: 0 20px 0 0;
+}
+
+
+/* ------------------Header body--------------------*/
+header {
+    width: 100%;
+    height: 100vh;
+    background: url("https://fiverr-res.cloudinary.com/videos/t_main1,q_auto,f_auto/wrliq87ujylgmo9anshk/create-a-lofi-hip-hop-animation-for-you.png")
+    no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+    overflow: hidden;
+}
+.overlay {
+    position: absolute;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+header .tophead {
+    margin-top: 200px;
+}
+
+header .title-main {
+    font-size: 65px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header .subtitle-main {
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 35px;
+    line-height: 1.5em;
+}
+
+/* ------------------Sesgoabajo--------------------*/
+.sesgoabajo {
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #ffffff transparent;
+}
